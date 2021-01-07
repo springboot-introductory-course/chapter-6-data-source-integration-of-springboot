@@ -1,0 +1,11 @@
+#datasource
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/springboot_introductory_course?serverTimezone=UTC
+        username: root
+        password: Purvar_027
+
+mybatis:
+    type-aliases-package: com.purvar.springboot.mybatis.mapper
+    mapper-locations: classpath:mapper/*Mapper.xml
